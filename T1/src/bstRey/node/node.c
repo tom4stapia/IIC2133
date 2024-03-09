@@ -112,8 +112,6 @@ int order(Node* node, bool cambio, FILE* output_file) {
     return 0;
 }
 
-/* CODIGO CITADO Y ADAPTADO DE CHATGPT */
-
 int deepOrder(Node* root, int node_count, bool cambio, FILE* output_file) {
   if (!root) {
     return 0;
@@ -145,7 +143,6 @@ int deepOrder(Node* root, int node_count, bool cambio, FILE* output_file) {
   return 0;
 }
 
-/* FIN CITA */
 
 void invert(Node* node) {
   if (!node) {

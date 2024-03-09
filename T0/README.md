@@ -14,4 +14,3 @@ En caso de querer utilizar utilizar ```valgrind```, ejecutar ```valgrind ./dcchu
 Esta tarea no cuenta con la politica de atrasos, por lo que si no la entregas a tiempo, no se te corregirá y obtendras la nota mínima.
 
 ## Referencias
-Para esta tarea decidí utilizar el algoritmo MergeSort, el cual busqué en ChatGPT y luego lo adapto para mi caso, ordenar una matriz de Nx2. Esto ubicado en ```dcchueck/orden/mergesort.c``` y explicado en ```docs/desing.md```

@@ -30,8 +30,6 @@ int calcularCosto(int x1, int y1, int x2, int y2) {
     return abs(x1 - x2) + abs(y1 - y2);
 }
 
-// CITADO Y ADAPTADO DE https://www.geeksforgeeks.org/merge-sort/.
-
 void merge(Arista* aristas, int left, int mid, int right) {
     int i, j, k;
     int n1 = mid - left + 1;
@@ -79,8 +77,6 @@ void mergeSort(Arista* aristas, int left, int right) {
         merge(aristas, left, mid, right);
     }
 }
-
-// FIN CITADO
 
 int find(int* padres, int nodo) {
     if (padres[nodo] != nodo) {

@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-/* ALGORTIMO MERGESORT UTILIZADO FUE SACADO DE CHATGPT Y ADAPTADO A MATRIZ DE Nx2*/
-
 void merge(int arreglo[][2], int izq, int med, int der) {
     int n1 = med - izq + 1;
     int n2 = der - med;
@@ -49,5 +47,3 @@ void mergeSort(int arreglo[][2], int izq, int der) {
         merge(arreglo, izq, med, der);
     }
 }
-
-/* FIN CITADO */
