@@ -55,5 +55,3 @@ brew install zlib
 
 ## Referencias
 
-En node.c de BstRey cite código de ChatGPT, este fue adaptado entre las líneas 117 y 146 del código.
-Para el QuadTree, me base en https://en.wikipedia.org/wiki/Quadtree para entender más sobre el árbol, siguiendo el pseudocódigo. 
