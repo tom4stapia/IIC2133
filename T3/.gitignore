@@ -1,0 +1,10 @@
+*.txt
+*.png
+obj/
+.vscode
+.DS_Store
+*.Zone.Identifier
+
+/party
+/magic
+/paths

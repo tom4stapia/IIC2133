@@ -1,0 +1,13 @@
+*.txt
+*.png
+obj/
+.vscode
+.DS_Store
+*.Zone.Identifier
+*.py
+bstRey
+!bstRey/
+
+hadaCompress
+!hadaCompress/
+

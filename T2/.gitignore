@@ -1,0 +1,13 @@
+*.txt
+*.png
+obj/
+.vscode
+.DS_Store
+*.Zone.Identifier
+
+
+/squads
+
+/worldGen
+
+6cvc6v7nau4uy9e
